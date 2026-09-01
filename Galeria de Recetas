@@ -1,0 +1,852 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Grupo 2 - Páginas de Recetas</title>
+
+    <!-- LLAMADA AL ARCHIVO CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ENCABEZADO -->
+
+    <header>
+
+        <h1>GRUPO 2</h1>
+
+        <p>Páginas de Recetas</p>
+
+    </header>
+
+
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+
+    <nav>
+
+        <a href="index.html">Inicio</a>
+
+        <a href="receta1.html">Receta 1</a>
+
+        <a href="receta2.html">Receta 2</a>
+
+        <a href="receta3.html">Receta 3</a>
+
+    </nav>
+
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+
+    <main>
+
+
+        <!-- CUADRO PRINCIPAL -->
+
+        <section class="ficha">
+
+
+            <h2>Galería de Recetas</h2>
+
+
+            <p class="intro">
+
+                Bienvenidos a la página de recetas del Grupo 2.
+                Aquí podrás conocer tres deliciosas recetas,
+                sus ingredientes y el tiempo de cocción.
+
+            </p>
+
+
+
+            <div class="galeria">
+
+
+
+                <!-- RECETA 1 -->
+
+                <div class="tarjeta">
+
+                    <img
+                        src="img/espaguetis.jpeg"
+                        alt="Espaguetis con salsa de tomate"
+                    >
+
+                    <h3>Espaguetis con salsa de tomate</h3>
+
+                    <p>
+                        Una deliciosa receta de pasta acompañada
+                        de una sencilla salsa de tomate.
+                    </p>
+
+                    <a
+                        href="receta1.html"
+                        class="boton"
+                    >
+                        Ver receta
+                    </a>
+
+                </div>
+
+
+
+                <!-- RECETA 2 -->
+
+                <div class="tarjeta">
+
+                    <img
+                        src="img/arroz-pollo.jpeg"
+                        alt="Arroz con pollo"
+                    >
+
+                    <h3>Arroz con pollo</h3>
+
+                    <p>
+                        Un plato tradicional preparado con arroz,
+                        pollo y diferentes ingredientes.
+                    </p>
+
+                    <a
+                        href="receta2.html"
+                        class="boton"
+                    >
+                        Ver receta
+                    </a>
+
+                </div>
+
+
+
+                <!-- RECETA 3 -->
+
+                <div class="tarjeta">
+
+                    <img
+                        src="img/hamburguesa.jpeg"
+                        alt="Hamburguesa casera"
+                    >
+
+                    <h3>Hamburguesa casera</h3>
+
+                    <p>
+                        Una hamburguesa preparada con carne,
+                        queso y vegetales frescos.
+                    </p>
+
+                    <a
+                        href="receta3.html"
+                        class="boton"
+                    >
+                        Ver receta
+                    </a>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+</body>
+
+</html>
+```
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Espaguetis con salsa de tomate - Grupo 2</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <h1>GRUPO 2</h1>
+
+    <p>Páginas de Recetas</p>
+
+</header>
+
+
+
+<nav>
+
+    <a href="index.html">Inicio</a>
+
+    <a href="receta1.html">Receta 1</a>
+
+    <a href="receta2.html">Receta 2</a>
+
+    <a href="receta3.html">Receta 3</a>
+
+</nav>
+
+
+
+<main>
+
+
+    <section class="ficha">
+
+
+        <h2>Espaguetis con salsa de tomate</h2>
+
+
+        <img class="foto-personaje"
+             src="img/espaguetis.jpeg"
+             alt="Espaguetis con salsa de tomate">
+
+
+        <div class="biografia">
+
+            <h3>Tiempo de cocción</h3>
+
+            <p>
+                El tiempo aproximado de preparación y cocción
+                es de <strong>25 minutos</strong>.
+            </p>
+
+        </div>
+
+
+        <h3>Ingredientes</h3>
+
+
+        <table>
+
+            <tr>
+                <th>Ingrediente</th>
+                <th>Cantidad</th>
+            </tr>
+
+            <tr>
+                <td>Pasta</td>
+                <td>400 g</td>
+            </tr>
+
+            <tr>
+                <td>Tomate</td>
+                <td>4 unidades</td>
+            </tr>
+
+            <tr>
+                <td>Cebolla</td>
+                <td>1 unidad</td>
+            </tr>
+
+            <tr>
+                <td>Ajo</td>
+                <td>2 dientes</td>
+            </tr>
+
+            <tr>
+                <td>Aceite de oliva</td>
+                <td>2 cucharadas</td>
+            </tr>
+
+            <tr>
+                <td>Queso rallado</td>
+                <td>100 g</td>
+            </tr>
+
+            <tr>
+                <td>Sal</td>
+                <td>Al gusto</td>
+            </tr>
+
+        </table>
+
+
+        <div class="navegacion-ficha">
+
+            <a class="boton" href="index.html">
+                ← Inicio
+            </a>
+
+            <a class="boton" href="receta2.html">
+                Siguiente →
+            </a>
+
+        </div>
+
+
+    </section>
+
+
+</main>
+
+
+
+<footer>
+
+    <p>© 2026 - Grupo 2</p>
+
+</footer>
+
+
+</body>
+
+</html>
+```
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Arroz con pollo - Grupo 2</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <h1>GRUPO 2</h1>
+
+    <p>Páginas de Recetas</p>
+
+</header>
+
+
+
+<nav>
+
+    <a href="index.html">Inicio</a>
+
+    <a href="receta1.html">Receta 1</a>
+
+    <a href="receta2.html">Receta 2</a>
+
+    <a href="receta3.html">Receta 3</a>
+
+</nav>
+
+
+
+<main>
+
+
+    <section class="ficha">
+
+
+        <h2>Arroz con pollo</h2>
+
+
+        <img class="foto-personaje"
+             src="img/arroz-pollo.jpeg"
+             alt="Arroz con pollo">
+
+
+        <div class="biografia">
+
+            <h3>Tiempo de cocción</h3>
+
+            <p>
+                El tiempo aproximado de preparación y cocción
+                es de <strong>45 minutos</strong>.
+            </p>
+
+        </div>
+
+
+        <h3>Ingredientes</h3>
+
+
+        <table>
+
+            <tr>
+                <th>Ingrediente</th>
+                <th>Cantidad</th>
+            </tr>
+
+            <tr>
+                <td>Arroz</td>
+                <td>2 tazas</td>
+            </tr>
+
+            <tr>
+                <td>Pollo</td>
+                <td>500 g</td>
+            </tr>
+
+            <tr>
+                <td>Zanahoria</td>
+                <td>1 unidad</td>
+            </tr>
+
+            <tr>
+                <td>Arvejas</td>
+                <td>½ taza</td>
+            </tr>
+
+            <tr>
+                <td>Cebolla</td>
+                <td>1 unidad</td>
+            </tr>
+
+            <tr>
+                <td>Aceite</td>
+                <td>2 cucharadas</td>
+            </tr>
+
+            <tr>
+                <td>Sal</td>
+                <td>Al gusto</td>
+            </tr>
+
+        </table>
+
+
+        <div class="navegacion-ficha">
+
+            <a class="boton" href="receta1.html">
+                ← Anterior
+            </a>
+
+            <a class="boton" href="receta3.html">
+                Siguiente →
+            </a>
+
+        </div>
+
+
+    </section>
+
+
+</main>
+
+
+
+<footer>
+
+    <p>© 2026 - Grupo 2</p>
+
+</footer>
+
+
+</body>
+
+</html>
+```
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hamburguesa casera - Grupo 2</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <h1>GRUPO 2</h1>
+
+    <p>Páginas de Recetas</p>
+
+</header>
+
+
+
+<nav>
+
+    <a href="index.html">Inicio</a>
+
+    <a href="receta1.html">Receta 1</a>
+
+    <a href="receta2.html">Receta 2</a>
+
+    <a href="receta3.html">Receta 3</a>
+
+</nav>
+
+
+
+<main>
+
+
+    <section class="ficha">
+
+
+        <h2>Hamburguesa casera</h2>
+
+
+        <img class="foto-personaje"
+             src="img/hamburguesa.jpeg"
+             alt="Hamburguesa casera">
+
+
+        <div class="biografia">
+
+            <h3>Tiempo de cocción</h3>
+
+            <p>
+                El tiempo aproximado de preparación y cocción
+                es de <strong>20 minutos</strong>.
+            </p>
+
+        </div>
+
+
+        <h3>Ingredientes</h3>
+
+
+        <table>
+
+            <tr>
+                <th>Ingrediente</th>
+                <th>Cantidad</th>
+            </tr>
+
+            <tr>
+                <td>Carne molida</td>
+                <td>500 g</td>
+            </tr>
+
+            <tr>
+                <td>Pan para hamburguesa</td>
+                <td>4 unidades</td>
+            </tr>
+
+            <tr>
+                <td>Queso</td>
+                <td>4 tajadas</td>
+            </tr>
+
+            <tr>
+                <td>Tomate</td>
+                <td>1 unidad</td>
+            </tr>
+
+            <tr>
+                <td>Lechuga</td>
+                <td>4 hojas</td>
+            </tr>
+
+            <tr>
+                <td>Cebolla</td>
+                <td>1 unidad</td>
+            </tr>
+
+            <tr>
+                <td>Sal</td>
+                <td>Al gusto</td>
+            </tr>
+
+        </table>
+
+
+        <div class="navegacion-ficha">
+
+            <a class="boton" href="receta2.html">
+                ← Anterior
+            </a>
+
+            <a class="boton" href="index.html">
+                Inicio
+            </a>
+
+        </div>
+
+
+    </section>
+
+
+</main>
+
+
+
+<footer>
+
+    <p>© 2026 - Grupo 2</p>
+
+</footer>
+
+
+</body>
+
+</html>
+```
+
+
+* { 
+    box-sizing: border-box; 
+} 
+ 
+body { 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    background-color: #fff3e0; 
+    color: #3e2723; 
+} 
+ 
+ 
+/* ENCABEZADO */ 
+ 
+header { 
+    background-color: #d35400; 
+    color: white; 
+    text-align: center; 
+    padding: 25px; 
+} 
+ 
+header h1 { 
+    margin: 0; 
+    font-size: 35px; 
+} 
+ 
+header p { 
+    margin: 8px 0 0; 
+} 
+ 
+ 
+/* MENU */ 
+ 
+nav { 
+    background-color: #e67e22; 
+    text-align: center; 
+    padding: 15px; 
+} 
+ 
+nav a { 
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+    margin: 0 15px; 
+} 
+ 
+nav a:hover { 
+    text-decoration: underline; 
+} 
+ 
+ 
+/* CONTENEDOR PRINCIPAL */ 
+ 
+main { 
+    width: 100%; 
+    padding: 20px; 
+} 
+ 
+.ficha { 
+    background-color: #ffffff; 
+    width: 95%; 
+    max-width: 1100px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border-radius: 15px; 
+    box-shadow: 0 5px 20px rgba(80, 40, 10, 0.20); 
+} 
+ 
+.ficha h2 { 
+    text-align: center; 
+    color: #d35400; 
+    font-size: 28px; 
+    margin: 0 0 10px 0; 
+} 
+ 
+.intro { 
+    text-align: center; 
+    font-size: 16px; 
+    margin: 0 0 20px 0; 
+} 
+ 
+.galeria { 
+    display: flex; 
+    justify-content: center; 
+    align-items: stretch; 
+    gap: 20px; 
+    flex-wrap: nowrap; 
+} 
+ 
+.tarjeta { 
+    background-color: #fff8f0; 
+    width: 30%; 
+    padding: 15px; 
+    text-align: center; 
+    border-radius: 12px; 
+    border: 1px solid #f0c9a5; 
+    box-shadow: 0 3px 10px rgba(80, 40, 10, 0.12); 
+ 
+    display: flex; 
+    flex-direction: column; 
+} 
+ 
+.tarjeta img { 
+    width: 100%; 
+    height: 180px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+} 
+ 
+.tarjeta h3 { 
+    color: #d35400; 
+    font-size: 20px; 
+    margin: 10px 0; 
+} 
+ 
+.tarjeta p { 
+    line-height: 1.4; 
+    margin: 5px 0; 
+    flex-grow: 1; 
+} 
+ 
+.boton { 
+    display: block; 
+    background-color: #e67e22; 
+    color: white; 
+    text-decoration: none; 
+    padding: 8px 15px; 
+    border-radius: 6px; 
+    margin-top: 10px; 
+    text-align: center; 
+} 
+ 
+.boton:hover { 
+    background-color: #d35400; 
+} 
+ 
+ 
+/* IMAGEN DE LAS FICHAS */ 
+ 
+.foto-personaje { 
+    display: block; 
+    width: 250px; 
+    height: 300px; 
+    object-fit: cover; 
+    margin: 20px auto; 
+    border-radius: 10px; 
+} 
+ 
+ 
+/* BIOGRAFIA */ 
+ 
+.biografia { 
+    margin-top: 25px; 
+} 
+ 
+.biografia h3 { 
+    color: #d35400; 
+} 
+ 
+.biografia p { 
+    line-height: 1.7; 
+    text-align: justify; 
+} 
+ 
+ 
+/* TABLA */ 
+ 
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 15px; 
+} 
+ 
+th { 
+    background-color: #d35400; 
+    color: white; 
+    padding: 12px; 
+} 
+ 
+td { 
+    padding: 12px; 
+    text-align: center; 
+    border: 1px solid #e6c9b5; 
+} 
+ 
+ 
+/* BOTONES INFERIORES */ 
+ 
+.navegacion-ficha { 
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 30px; 
+} 
+ 
+ 
+/* PIE DE PAGINA */ 
+ 
+footer { 
+    background-color: #d35400; 
+    color: white; 
+    text-align: center; 
+    padding: 15px; 
+} 
+ 
+ 
+/* CELULAR */ 
+ 
+@media (max-width: 700px) { 
+ 
+    nav a { 
+        display: block; 
+        margin: 10px; 
+    } 
+ 
+    .ficha { 
+        width: 95%; 
+        padding: 20px; 
+    } 
+ 
+    .tarjeta { 
+        width: 100%; 
+        max-width: 350px; 
+    } 
+ 
+    .navegacion-ficha { 
+        flex-direction: column; 
+        gap: 10px; 
+    } 
+ 
+}
+
